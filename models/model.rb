@@ -7,14 +7,14 @@ class Game
   end
 
   def game
-    if @one == @two puts "draw"
-    elsif @one == "rock" && @two == "paper" puts "two wins"
-    elsif @one == "rock" && @two == "scissors" puts "one wins"
-    elsif @one == "paper" && @two == "rock" puts "one wins"
-    elsif @one == "paper" && @two == "scissors" puts "two wins"
-    elsif @one == "scissors" && @two == "rock" puts "two wins"
-    elsif @one == "scissors" && @two == "paper" puts "one wins"
+
+    if @one == @two then puts "draw"
+    else @one == "rock" && @two == "paper" then  puts "two wins"
+    # when @one == "rock" && @two == "scissors" then puts "one wins"
+    # when @one == "paper" && @two == "rock" then puts "one wins"
+    # when @one == "paper" && @two == "scissors" then puts "two wins"
+    # when @one == "scissors" && @two == "rock" then puts "two wins"
+    # when @one == "scissors" && @two == "paper" then puts "one wins"
     end
   end
-
 end

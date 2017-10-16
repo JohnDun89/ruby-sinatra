@@ -1,6 +1,6 @@
 require('sinatra')
 require('sinatra/contrib/all')
-require_relative('./models/calculator.rb')
+require_relative('./models/model.rb')
 
 get '/' do
 erb(:home)
